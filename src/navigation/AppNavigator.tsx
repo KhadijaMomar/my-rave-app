@@ -17,7 +17,7 @@ export default function AppNavigator() {
     >
       <Tab.Screen name="Home" component={HomeScreen} options={{ title: 'Connexion' }} />
       <Tab.Screen name="Record" component={RecordScreen} options={{ title: 'Micro' }} />
-      <Tab.Screen name="RAVE" component={RaveScreen} options={{ title: 'RAVE (IA)' }} />
+      <Tab.Screen name="RAVE" component={RaveScreen} options={{ title: 'RAVE' }} />
     </Tab.Navigator>
   );
 }
